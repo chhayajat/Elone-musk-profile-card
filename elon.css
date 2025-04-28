@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+}
+#one{
+    height: 70%;
+    width: 50%;
+    color: white;
+    box-sizing: border-box;
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+#one h2{
+    font-size: 80px;
+}
+
+#one h3{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+#one button{
+    width: 400px;
+    background-color: rgb(233, 76, 128);
+    padding-block: 15px;
+    border-radius: 12px;
+    font-size: 30px;
+    border: none;
+}
+
+#two{
+    height: 80%;
+    width: 30%;
+    box-sizing: border-box;
+    border: 10px solid rgb(231, 228, 228);
+    
+}
+#child{
+    height: 30%;
+    width: 100%;
+    backgroubackground:#070433;
+    background: linear-gradient(1deg, rgba(7, 4, 51, 1) 0%, rgba(9, 9, 121, 0.83) 35%, rgba(0, 212, 255, 1) 100%);nd-color: rgb(75, 77, 237);
+    
+    
+}
+#child2{
+    height: 70%;
+    width: 100%;
+    border: 2px solid white;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    
+    
+}
+#child2 img{
+    position: relative;
+    bottom: 20%;
+    border-radius: 50%;
+}
+#child2 p {
+    
+    margin-bottom: 30px;
+}
+
+#child2 button {
+    padding-block: 10px;
+    padding-inline: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(29, 29, 244);
+    color: white;
+}
+
+#child2 h1 {
+
+    position: relative;
+    bottom: 50px;
+}
